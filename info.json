@@ -1,10 +1,18 @@
 [
     {
-        "username": "Fuck",
-        "photo": "https://cdn.salla.sa/ZWNXP/ugFo68nbBrdOrLMaX6F3Hi8VFumIQWOGYjphdtiE.jpg"
+        "username": "xkm",
+        "photo": "./users/icon.JPG",
+        "type": "3user"
     },
     {
         "username": "_ggg",
-        "photo": "https://cdn.salla.sa/ZWNXP/ugFo68nbBrdOrLMaX6F3Hi8VFumIQWOGYjphdtiE.jpg"
+        "photo": "https://cdn.salla.sa/ZWNXP/ugFo68nbBrdOrLMaX6F3Hi8VFumIQWOGYjphdtiE.jpg",
+        "type": "4user"
+    }
+    ,
+    {
+        "username": "_ggg",
+        "photo": "https://cdn.salla.sa/ZWNXP/ugFo68nbBrdOrLMaX6F3Hi8VFumIQWOGYjphdtiE.jpg",
+        "type": "Xuser"
     }
 ]
