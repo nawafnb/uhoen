@@ -4,3 +4,6 @@ body {
 .bg-myColor {
     background-color: #262626;
 }
+.btn-color {
+    background-color: rgb(72, 176, 241);
+}
