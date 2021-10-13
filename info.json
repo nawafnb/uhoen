@@ -1,18 +1,28 @@
 [
     {
-        "username": "xkm",
+        "username": "xkfm",
         "photo": "./users/icon.JPG",
+        "password":"165",
         "type": "3user"
     },
     {
-        "username": "xks",
+        "username": "3xks",
         "photo": "./users/icon.JPG",
+        "password":"21",
         "type": "3user"
     
     },
     {
-        "username": "xks",
+        "username": "4c5f",
         "photo": "./users/icon.JPG",
+        "password":"198",
+        "type": "3user"
+    }
+    ,
+    {
+        "username": "xk3s",
+        "photo": "./users/icon.JPG",
+        "password":"198",
         "type": "3user"
     }
 ]
