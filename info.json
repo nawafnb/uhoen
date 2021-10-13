@@ -19,5 +19,11 @@
         "username": "_ggg",
         "photo": "https://cdn.salla.sa/ZWNXP/ugFo68nbBrdOrLMaX6F3Hi8VFumIQWOGYjphdtiE.jpg",
         "type": "Xuser"
+    
+    },
+    {
+        "username": "xks",
+        "photo": "./users/icon.JPG",
+        "type": "3user"
     }
 ]
