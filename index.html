@@ -20,13 +20,13 @@
         <div class="d-flex justify-content-center">
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">أشباهٌ ومكررات</a>
+              <button class="nav-link active nav-btn" @click='store.filtering("x4user")'>أشباهٌ ومكررات</button>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">رباعيات</a>
+              <button class="nav-link active nav-btn" @click='store.filtering("4user")'>رباعيات</button>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ثلاثيات</a>
+              <button class="nav-link nav-btn" @click='store.filtering("3user")'>ثلاثيات</button>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled">ثنائيات</a>
@@ -37,13 +37,13 @@
     </nav>
     <div class="container">
       <div class="row justify-content-center align-items-center">
-        <div class="col-lg-3 col-5 m-2" v-for="user in store.myData">
+        <div class="col-lg-3 col-5 m-2" v-for="user in store.myData" v-cloak>
           <div class="card bg-myColor text-white">
             <img :src='user.photo' class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h1>{{ user.username }}</h1>
               <a :href='"https://api.whatsapp.com/send/?phone=966507100743&text=" + user.username' target="_blank" ><button class="btn text-white btn-color">شراء</button></a>
-              <a<button class="card bg-myColor text-white">SR 100</button>
+              <p class="card bg-myColor text-white">SR {{ user.pirce }}</p>
             </div>
           </div>
         </div>
@@ -55,15 +55,21 @@
       import { createApp, reactive } from 'https://unpkg.com/petite-vue?module'
       const store = reactive({
         myData: [],
-        async inc() {
+        async init() {
          let rsp = await fetch("info.json");
          let data = await rsp.json();
          this.myData = data;
+        },
+        async filtering(_data) {
+         let rsp = await fetch("info.json");
+         /** @type {Array} */
+         let data = await rsp.json();
+         this.myData = data.filter((e) => e.type == _data);
         }
       })
 
       // manipulate it here
-      store.inc()
+      store.init()
       createApp({
         store
       }).mount()

@@ -2,27 +2,27 @@
     {
         "username": "xkfm",
         "photo": "./users/icon.JPG",
-        "password":"165",
+        "pirce":"165",
         "type": "3user"
     },
     {
         "username": "3xks",
         "photo": "./users/icon.JPG",
-        "password":"21",
-        "type": "3user"
+        "pirce":"21",
+        "type": "4user"
     
     },
     {
         "username": "4c5f",
         "photo": "./users/icon.JPG",
-        "password":"198",
-        "type": "3user"
+        "pirce":"198",
+        "type": "x4user"
     }
     ,
     {
         "username": "xk3s",
         "photo": "./users/icon.JPG",
-        "password":"198",
-        "type": "3user"
+        "pirce":"198",
+        "type": "__"
     }
 ]
