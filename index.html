@@ -19,14 +19,6 @@
       <div class="container">
         <div class="d-flex justify-content-center">
           <ul class="nav">
-            <li class="nav-item">
-              <button class="nav-link active nav-btn" @click='store.filtering("x4user")'>أشباهٌ ومكررات</button>
-            </li>
-            <li class="nav-item">
-              <button class="nav-link active nav-btn" @click='store.filtering("4user")'>رباعيات</button>
-            </li>
-            <li class="nav-item">
-              <button class="nav-link nav-btn" @click='store.filtering("3user")'>ثلاثيات</button>
               <li class="nav-link nav-btn" class="nav-item">
                 <a href="app/">برامج</a>
             </li>
@@ -44,8 +36,8 @@
             <img :src='user.photo' class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h1>{{ user.username }}</h1>
-              <a :href='"https://api.whatsapp.com/send/?phone=966507100743&text=" + user.username' target="_blank" ><button class="btn text-white btn-color">شراء</button></a>
-              <p class="card bg-myColor text-white">SR {{ user.pirce }}</p>
+              <a :href='"https://salla.sa/uhoe/" + user.username' target="_blank" ><button class="btn text-white btn-color">شراء</button></a>
+              <p class="card bg-myColor text-white"> {{ user.pirce }}</p>
             </div>
           </div>
         </div>

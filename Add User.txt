@@ -1,0 +1,6 @@
+PS C:\Users\Zord\Desktop\Data github> git add .
+PS C:\Users\Zord\Desktop\Data github> git add .
+PS C:\Users\Zord\Desktop\Data github> git commit -m "Add User"
+[main c46cfa5] Add User
+ 1 file changed, 6 insertions(+)
+PS C:\Users\Zord\Desktop\Data github> git push 

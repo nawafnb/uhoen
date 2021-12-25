@@ -1,39 +1,8 @@
 
  [
     {
-        "username": "shorts",
+        "username": "يوزرات",
         "photo": "./users/icon.JPG",
-        "pirce":"5000"
-    },
-    {
-        "username": "NXG",
-        "photo": "./users/icon.JPG",
-        "pirce":"1900",
-        "type": "3user"
-    
-    },
-    {
-        "username": "vernal",
-        "photo": "./users/icon.JPG",
-        "pirce":"400"
-    },
-    {
-        "username": "sit4",
-        "photo": "./users/icon.JPG",
-        "pirce":"500"
-    }
-    ,
-    {
-        "username": "82_3",
-        "photo": "./users/icon.JPG",
-        "pirce":"500",
-        "type": "x4user"
-    }
-    ,
-    {
-        "username": "m.eo",
-        "photo": "./users/icon.JPG",
-        "pirce":"500",
-        "type": "x4user"
+        "pirce":"اضغط على شراء  اذا مهتم ليوزرات"
     }
 ]
