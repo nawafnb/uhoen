@@ -35,11 +35,9 @@
           <div class="card bg-myColor text-white">
             <img :src='user.photo' class="card-img-top" alt="...">
             <div class="card-body text-center">
-              <h1>{{ user.username }}</h1>
-              <a :href='"https://salla.sa/uhoe/" + user.username' target="_blank" >
-              <h1>{{ tle }}</h1>
-              <a :href='"https://t.me/uhoeb" + user.username' target="_blank" >
-              <p class="card bg-myColor text-white"> {{ user.pirce }}</p>
+              <h1>{{ username }}</h1>
+              <a :href='user.username' target="_blank" ><button class="btn text-white btn-color">انتقال الى سله</button></a>
+              <p class="card bg-myColor text-white">{{ user.pirce }}</p>
             </div>
           </div>
         </div>
