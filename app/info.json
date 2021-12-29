@@ -12,6 +12,11 @@
     },
     {
         "username": "https://www.instagram.com/hotnaderr/",
+        "photo": "./users/sessionid.jpg",
+        "pirce":" اقوا تخمين موجود#مدفوع"
+    },
+    {
+        "username": "https://www.instagram.com/hotnaderr/",
         "photo": "./users/nd.png",
         "pirce":" اقوا تخمين موجود#مدفوع"
     },
@@ -55,5 +60,10 @@
         "username": "https://top4top.io/downloadf-1848b247v1-rar.html",
         "photo": "./users/co.png",
         "pirce":" #بوت كونتات مجاني"
+    } ,
+    {
+        "username": "https://top4top.io/downloadf-1848b247v1-rar.html",
+        "photo": "./users/fhs.png",
+        "pirce":" # يفحص الجهاز اذا ملغم  #مجاني"
     }
 ]
